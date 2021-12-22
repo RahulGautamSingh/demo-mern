@@ -1,0 +1,12 @@
+Authentication
+----Signup(Y)
+----Login(Y)
+----Logout(Y)
+
+Students
+----Show all students(Y)
+----Show student by id(Y)
+----create course for a student(N)
+
+
+N.B. Y - done, n - not done

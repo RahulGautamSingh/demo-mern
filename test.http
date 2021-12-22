@@ -1,0 +1,22 @@
+# POST http://localhost:5000/api/students/add-student 
+# content-type: application/json
+
+# {
+#     "name": "Pratik Gupta"
+# }
+
+# POST http://localhost:5000/api/admin/signup 
+# content-type: application/json
+
+# {
+#     "email": "rahulsingh@gmail.com",
+#     "password": "123456"
+# }
+
+POST http://localhost:5000/api/admin/login 
+content-type: application/json
+
+{
+    "email": "rahulsingh@gmail.com",
+    "password": "123456"
+}
