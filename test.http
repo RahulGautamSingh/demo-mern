@@ -2,7 +2,7 @@
 # content-type: application/json
 
 # {
-#     "name": "Pratik Gupta"
+#     "name": "Bhargab Nath"
 # }
 
 # POST http://localhost:5000/api/admin/signup 
@@ -13,10 +13,18 @@
 #     "password": "123456"
 # }
 
-POST http://localhost:5000/api/admin/login 
+# POST http://localhost:5000/api/admin/login 
+# content-type: application/json
+
+# {
+#     "email": "rahulsingh@gmail.com",
+#     "password": "123456"
+# }
+
+POST http://localhost:5000/api/students/61c42429ec14b6731e79e66b/add-course
 content-type: application/json
 
 {
-    "email": "rahulsingh@gmail.com",
-    "password": "123456"
+    "name": "Introduction to Operating System",
+    "code": "CS-303"
 }
